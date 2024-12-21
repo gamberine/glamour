@@ -1,0 +1,204 @@
+@charset "UTF-8";
+
+/*
+Theme Name: Iatex Ibetex Group
+Author: Gamberine Comunicação Digital
+Ano: 2024
+*/
+
+/* styles.css */
+@import url('style-variaveis.css');
+
+/* Personalização campos do ACF - Gamberine */
+
+/* Ocultar o box de categoria do banner  */
+
+li#toplevel_page_wpforms-overview,
+#menu-comments,
+.post-type-conteudo a.page-title-action {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+
+/* div[id$="div"], */
+#tagsdiv-cargo,
+div#tagsdiv-mercado_produtos,
+div#tagsdiv-fornecedor,
+div#category_tipo_destinodiv,
+div#tagsdiv-category_tipo_viagem,
+div#category_produtosdiv,
+div#tagsdiv-filtros_produtos,
+div#category_bannerdiv, 
+/* aqui estou ocultando todos os cards do menu direito que forem cadastrados como post type */
+div[id^="tagsdiv-"] {
+    visibility: hidden;
+}
+
+.corPrincipal label {
+    color: var(--corPrincipal);
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height   : 1 !important;
+    padding-left  : 0.75rem;
+    font-weight   : 700 !important;
+    color         : var(--corSecundaria);
+    text-transform: uppercase;
+    width         : 100%;
+    height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.select2-container.-acf .select2-selection {
+    border-color   : #7e8993;
+    min-height         : 34px !important;
+    /* display        : flex;
+    align-items    : center;
+    justify-content: flex-start; */
+}
+
+.select2-results__option[aria-selected] {
+    text-transform: uppercase;
+    white-space   : pre;
+    overflow-x    : hidden;
+    text-overflow : ellipsis;
+    padding       : 5px;
+}
+
+.categorychecklist-holder ul {
+    height     : 34px;
+    /* gap        : 2rem;
+    display    : flex;
+    align-items: center; */
+}
+
+.select2-container--default .select2-selection--single .select2-selection__placeholder {
+    font-weight: 500;
+}
+
+/* .categorychecklist-holder ul li:nth-child(odd) {
+    position: relative;
+    left    : -1rem;
+} */
+
+.acf-input-wrap input {
+    position: relative;
+    height  : 34px;
+}
+
+acf-field.acf-field-group {
+    display            : flex;
+    align-items        : center;
+    background         : #d6e1ec !important;
+    height             : 34px;
+    border-bottom-color: #fff !important;
+    padding            : 0 !important;
+}
+
+.acf-field.acf-field-group .acf-label label,
+.acf-field-group .acf-label {
+    margin: 0 !important;
+}
+
+.acf-field.acf-field-accordion.acf-field-658b1654f6fbc.acf-accordion.-open .acf-label.acf-accordion-title,
+.acf-field.acf-field-accordion.acf-field-658b2b2a50989.acf-accordion.-open .acf-label.acf-accordion-title,
+.post-type-acf-field-group #acf-field-group-fields .acf-field-object-accordion {
+    background-color: #94a0adc5 !important;
+    transition      : all ease .3s !important;
+}
+
+.acf-field.acf-accordion .acf-label.acf-accordion-title,
+.post-type-acf-field-group #acf-field-group-fields .acf-field-object-tab {
+    background-color: #d6e1ec !important;
+    transition      : all ease .3s !important;
+}
+
+.acf-fields>.acf-tab-wrap:first-child .acf-tab-group {
+    margin: 0 !important;
+}
+
+.acf-fields>.acf-tab-wrap .acf-tab-group li.active a {
+    background-color: #d6e1ec !important;
+    border-color    : #d6e1ec !important;
+    transition      : all ease .3s !important;
+}
+
+.acf-fields>.acf-tab-wrap .acf-tab-group li a:hover {
+    background-color: #b3d9ff !important;
+    transition      : all ease .3s !important;
+}
+
+.acf-image-uploader .image-wrap img,
+.acf-image-uploader img {
+    height      : 8.2rem !important;
+    aspect-ratio: 4 / 3 !important;
+    width       : 100% !important;
+    object-fit  : cover !important;
+    overflow    : hidden !important;
+}
+
+.acf-field.acf-field-accordion.acf-field-658b1654f6fbc.acf-accordion,
+.acf-field.acf-field-accordion.acf-field-658b2b2a50989.acf-accordion {
+    margin-top: 15px !important;
+}
+
+.icon_preview {
+    display        : flex !important;
+    justify-content: center !important;
+    height         : 6rem !important;
+    align-items    : center !important;
+}
+
+#adminmenu li.wp-menu-separator {
+    height: 0 !important;
+    margin: 0 !important;
+}
+
+/* // personalizar campo Editor WYSIWYG do acf */
+.editorWYSIWYG .wp-editor-container textarea.wp-editor-area {
+    height    : auto !important;
+    min-height: 12vh;
+}
+
+.postbox-header {
+    min-height: 38px !important;
+    background: #94a0adc5 !important;
+}
+
+/* .acf-taxonomy-field:hover .acf-actions, */
+.acf-actions.-hover,
+.acf-taxonomy-field .acf-actions,
+.gridCatBanner .acf-actions.-hover,
+.gridCatBanner .acf-taxonomy-field .acf-actions {
+    display: block !important;
+}
+
+.acf-taxonomy-field[data-ftype=select] .acf-actions {
+    padding: 0 !important;
+    margin: -1.8rem 0 !important;
+  }
+  li#wp-admin-bar-wpforms-menu,
+  li#wp-admin-bar-comments,
+  li#wp-admin-bar-wp-logo {
+    display: none !important;
+  }
+
+
+
+
+@media only screen and (min-width: 1299px) and (max-width: 1380px) {
+
+    #adminmenu,
+    #adminmenu .wp-submenu,
+    #adminmenuback,
+    #adminmenuwrap {
+        width: 12.5vw !important;
+    }
+
+    #wpcontent {
+        padding-left: 14vw !important;
+        margin-left : 0 !important;
+    }
+}

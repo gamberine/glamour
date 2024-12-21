@@ -1,0 +1,23 @@
+/**
+Theme Name: Glamour Modas 
+Theme URI: https://gamberine.com.br/
+Author: Gamberine Comunicação Digital
+Author URI: https://gamberine.com.br/
+Description: Desenvolvimento de soluções web
+Ano: 2025
+WooCommerce website!
+Version: 1.1.1
+Requires at least: 5.3
+WC requires at least: 3.0
+WC tested up to: 9.3
+Tested up to: 6.7
+Requires PHP: 5.3
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Glamour
+Domain Path: /languages
+
+/* Note: The CSS files are loaded from assets/css/ folder. */
+
+/* styles.css */
+@import url('style-variaveis.css');

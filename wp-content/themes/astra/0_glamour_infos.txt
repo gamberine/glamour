@@ -1,0 +1,31 @@
+
+
+
+(G ) - Antrokas_demo
+corpo - Corinthia
+Modas - Quesha (237)
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/quesha');
+</style>
+
+
+font-family: 'Quesha', sans-serif;
+
+400 ou 700
+font-family: "Corinthia", cursive; 
+
+font-family: "Noto Sans", sans-serif;
+
+
+textos 63696B
+corSec 101A3F
+corSecHov 090D1E
+
+Principal B78406
+PrincipalHover D8AA2B
+
+esquerda BEA000
+
