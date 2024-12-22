@@ -287,12 +287,12 @@ if (!function_exists('tema_base_gamb_setup')) {
 		* This is done conditionally to avoid loading the starter content on every
 		* page load, as it is a one-off operation only needed once in the customizer.
 		*/
-        if (is_customize_preview()) {
-            require get_template_directory() . '/inc/starter-content.php';
-            add_theme_support('starter-content', tema_base_gamb_get_starter_content());
-        }
-        // Add support for responsive embedded content.
-        add_theme_support('responsive-embeds');
+        // if (is_customize_preview()) {
+        //     require get_template_directory() . '/inc/starter-content.php';
+        //     add_theme_support('starter-content', tema_base_gamb_get_starter_content());
+        // }
+        // // Add support for responsive embedded content.
+        // add_theme_support('responsive-embeds');
         // Add support for custom line height controls.
         add_theme_support('custom-line-height');
         // Add support for experimental link color control.
@@ -480,35 +480,35 @@ add_action('wp_print_footer_scripts', 'tema_base_gamb_skip_link_focus_fix');
  *
  * @return void
  */
-function tema_base_gamb_non_latin_languages()
-{
-    $custom_css = tema_base_gamb_get_non_latin_css('front-end');
-    if ($custom_css) {
-        wp_add_inline_style('tema-base-gamb-style', $custom_css);
-    }
-}
-add_action('wp_enqueue_scripts', 'tema_base_gamb_non_latin_languages');
+// function tema_base_gamb_non_latin_languages()
+// {
+//     $custom_css = tema_base_gamb_get_non_latin_css('front-end');
+//     if ($custom_css) {
+//         wp_add_inline_style('tema-base-gamb-style', $custom_css);
+//     }
+// }
+// add_action('wp_enqueue_scripts', 'tema_base_gamb_non_latin_languages');
 // SVG Icons class.
-require get_template_directory() . '/classes/class-tema-base-gamb-svg-icons.php';
-// Custom color classes.
-require get_template_directory() . '/classes/class-tema-base-gamb-custom-colors.php';
-new Tema_Dev_Gamb_Custom_Colors();
-// Enhance the theme by hooking into WordPress.
-require get_template_directory() . '/inc/template-functions.php';
-// Menu functions and filters.
-require get_template_directory() . '/inc/menu-functions.php';
-// Custom template tags for the theme.
-require get_template_directory() . '/inc/template-tags.php';
-// Customizer additions.
-require get_template_directory() . '/classes/class-tema-base-gamb-customize.php';
-new Tema_Dev_Gamb_Customize();
-// Block Patterns.
-require get_template_directory() . '/inc/block-patterns.php';
-// Block Styles.
-require get_template_directory() . '/inc/block-styles.php';
-// Dark Mode.
-require_once get_template_directory() . '/classes/class-tema-base-gamb-dark-mode.php';
-new Tema_Dev_Gamb_Dark_Mode();
+// require get_template_directory() . '/classes/class-tema-base-gamb-svg-icons.php';
+// // Custom color classes.
+// require get_template_directory() . '/classes/class-tema-base-gamb-custom-colors.php';
+// new Tema_Dev_Gamb_Custom_Colors();
+// // Enhance the theme by hooking into WordPress.
+// require get_template_directory() . '/inc/template-functions.php';
+// // Menu functions and filters.
+// require get_template_directory() . '/inc/menu-functions.php';
+// // Custom template tags for the theme.
+// require get_template_directory() . '/inc/template-tags.php';
+// // Customizer additions.
+// require get_template_directory() . '/classes/class-tema-base-gamb-customize.php';
+// new Tema_Dev_Gamb_Customize();
+// // Block Patterns.
+// require get_template_directory() . '/inc/block-patterns.php';
+// // Block Styles.
+// require get_template_directory() . '/inc/block-styles.php';
+// // Dark Mode.
+// require_once get_template_directory() . '/classes/class-tema-base-gamb-dark-mode.php';
+// new Tema_Dev_Gamb_Dark_Mode();
 /**
  * Enqueue scripts for the customizer preview.
  *
@@ -1393,6 +1393,7 @@ function criar_funcao_administrador_site()
     }
 }
 add_action('init', 'criar_funcao_administrador_site');
+
 // Passo 2: Atribuir a função de "Administrador Comum" a novos usuários
 function atribuir_funcao_administrador_site($user_id)
 {
@@ -1400,10 +1401,12 @@ function atribuir_funcao_administrador_site($user_id)
     $user->set_role('administrador_site');
 }
 add_action('user_register', 'atribuir_funcao_administrador_site');
+
 // Função para remover uma função personalizada tipo "Administrador Comum"
 // function remover_funcao_administrador_comum() {
 // }
 // add_action('init', 'remover_funcao_administrador_comum');
+
 // Função para remover as funções padrão "Colaborador" e "Autor"
 function remover_funcoes_padrao()
 {

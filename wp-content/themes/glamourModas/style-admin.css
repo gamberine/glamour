@@ -13,6 +13,8 @@ Ano: 2024
 
 /* Ocultar o box de categoria do banner  */
 
+
+li#wp-admin-bar-updates,
 li#toplevel_page_wpforms-overview,
 #menu-comments,
 .post-type-conteudo a.page-title-action {
@@ -54,9 +56,6 @@ div[id^="tagsdiv-"] {
 .select2-container.-acf .select2-selection {
     border-color   : #7e8993;
     min-height         : 34px !important;
-    /* display        : flex;
-    align-items    : center;
-    justify-content: flex-start; */
 }
 
 .select2-results__option[aria-selected] {
@@ -179,12 +178,46 @@ acf-field.acf-field-group {
     padding: 0 !important;
     margin: -1.8rem 0 !important;
   }
+
+  .e-notice--extended,
+  .notice.e-notice.e-notice--cta.e-notice--dismissible.e-notice--extended,
+  p#footer-upgrade,
+  div#astra-upgrade-pro-wc,
+  div#e-dashboard-overview,
+  .max-w-\[30rem\].w-full.flex.bg-white.sm\:rounded-lg.fixed.bottom-2.right-2.z-10.p-4.sm\:p-5.border.border-solid.border-border-tertiary.shadow-lg,
   li#wp-admin-bar-wpforms-menu,
   li#wp-admin-bar-comments,
   li#wp-admin-bar-wp-logo {
     display: none !important;
   }
 
+/* ---------- gamberine ------ */
+#wpfooter p {
+    font-size: .9rem;
+    line-height: 1.1;
+    width: 42ch;
+    white-space: nowrap;
+    overflow: hidden;
+    float: left;
+    text-overflow: clip;
+    padding: 0 !important;
+    margin: 0 !important;
+    text-align: left;
+}
+#wpfooter p a {
+    text-decoration: none !important;
+}
+#wpfooter p strong,
+#wpfooter p a:nth-child(2),
+#wpfooter p a:nth-child(3) {
+    display: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 0 !important;
+    height: 0;
+    font-size: 0 !important;
+    color: transparent !important;
+  }
 
 
 

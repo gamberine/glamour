@@ -21,3 +21,26 @@ Domain Path: /languages
 
 /* styles.css */
 @import url('style-variaveis.css');
+
+.ast-page-builder-template .site-content > .ast-container {
+    max-width: 100%;
+    padding-block: 0 !important;
+    padding-inline: 2rem !important;
+    flex-wrap: wrap !important;
+    row-gap: 2rem;
+}
+
+#primary {
+    width: 80% !important;
+    padding: 0 2rem 2rem !important;
+
+  }
+
+#secondary {
+    width: 20% !important;
+  }
+#secondary {
+  line-height: 1.3;
+  padding-inline: 2rem !important;
+}
+

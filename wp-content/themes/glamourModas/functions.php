@@ -258,5 +258,318 @@ remove_action('wp_head', 'wp_generator');
 add_filter('admin_footer_text', 'bl_admin_footer');
 function bl_admin_footer()
 {
-    echo 'Desenvolvido por <a href="https://gamberine.com.br" target="_blank">Gamberine Comunicação Digital</a>';
+    echo ' Desenvolvido por: <a href="https://gamberine.com.br" target="_blank">Gamberine Comunicação Digital</a> ';
 }
+
+// Logo Login
+function gamberine_login_edit()
+{
+    echo '<style type="text/css">';
+    echo 'h1 { background: url(' . get_bloginfo('template_directory') . '/' . 'imagens/';
+    // Imagem
+    echo 'logo.png';
+    echo ') 50% 50% no-repeat !important;   
+				width: auto !important;
+				background-size: contain !important;
+				height: 100px !important; 
+			}
+        .login h1 a,
+        .language-switcher {
+            display: none !important;
+        }
+        body {
+            background: linear-gradient(261deg, #090d1e 10%, #101a3f 90%) !important;
+        }
+
+        .wp-core-ui .button-primary {
+            background: #B78406 !important;
+            border-color: transparent;
+            box-shadow: none;
+            border: 0 !important;
+            border-radius: 10px !important;
+            color: #fff !important;
+            text-decoration: none;
+            text-shadow: none;
+            transition: all ease .3s !important;
+        }
+        .wp-core-ui .button-primary:hover {
+            background: #D8AA2B !important;
+            opacity: 0.9;
+            border: 0 !important;
+            transition: all ease .3s !important;
+        }
+        .wp-core-ui .button-group.button-large .button, .wp-core-ui .button.button-large {
+            min-height: 40px;
+            padding: 0 2vw;
+        }
+        input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea {
+            border: 1px solid #B78406 !important;
+            outline: none!important;
+        }
+        input[type=checkbox]:focus, input[type=color]:focus, input[type=date]:focus, input[type=datetime-local]:focus, input[type=datetime]:focus, input[type=email]:focus, input[type=month]:focus, input[type=number]:focus, input[type=password]:focus, input[type=radio]:focus, input[type=search]:focus, input[type=tel]:focus, input[type=text]:focus, input[type=time]:focus, input[type=url]:focus, input[type=week]:focus, select:focus, textarea:focus{
+        outline-color: #B78406 !important;
+            box-shadow:none !important;
+            border: 1px solid #B78406 !important;
+            outline: none !important;
+            border-radius: 3px;
+        }
+        .wp-core-ui .button, .wp-core-ui .button-secondary{
+            border: 0;
+            transition: all ease .3s !important;
+        }
+        input[type=checkbox], input[type=radio] {
+            border: 1px solid #B78406 !important;
+        }
+        input[type=checkbox]:checked::before {  
+            filter: brightness(0);
+        }
+        .login #login_error, .login .message, .login .success {
+            border-left: 1px solid #B78406 !important;
+        }
+        #login {
+            padding: 2% 0 0 !important;
+        }
+        .login #nav {
+            float: right;
+            margin-block: 1rem !important;
+        }
+        .login #backtoblog a:hover, .login #nav a:hover, .login h1:hover {
+            color: #fff !important;
+            // transition: all ease .3s !important;
+        }
+        .login form {
+            border: 1px solid #fff;
+            box-shadow: 5px 5px 10px rgba(0,0,0,.08);
+            color: #63696B !important;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+        .login .button.wp-hide-pw .dashicons {
+            color: #D8AA2B;
+        }
+        .login a {
+        text-decoration: none !important;
+        }
+        .login #backtoblog a {
+            color: #fff;
+        }
+        .login #backtoblog a:focus, .login #nav a:focus, .login h1:focus {
+            box-shadow: none;
+        }
+        .login h1 {
+            height: 120px !important;
+            padding-block: 1rem;
+            margin-bottom: 1rem;
+        }
+        .login h1:focus {
+            margin: 0;
+        }
+        #backtoblog {
+            background: #b78506b4;
+            height: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            border-radius: 10px;
+            transition: all ease .3s !important;
+        }
+        #backtoblog:hover {
+            background: #e2a50bb4;
+            transition: all ease .3s !important;
+        }
+                </style>';
+}
+add_action('login_head', 'gamberine_login_edit');
+// fim Logo Login
+
+/* add novo formato get_field ACF - gamberine */
+add_filter('acf/the_field/escape_html_optin', '__return_true');
+add_filter('wpcf7_form_autocomplete', function ($autocomplete) {
+    $autocomplete = 'off';
+    return $autocomplete;
+}, 10, 1);
+/* função utilizar editor clássico */
+add_filter('use_block_editor_for_post', '__return_false', 10);
+/* gamberine função detectar qual navegador está acessando */
+add_filter('body_class', 'detect_browser');
+function detect_browser($classes)
+{
+    global $is_lynx, $is_gecko, $is_IE, $is_opera, $is_NS4, $is_safari, $is_chrome, $is_iphone;
+    if ($is_opera) $classes[] = 'opera';
+    elseif ($is_safari) $classes[] = 'safari';
+    elseif ($is_chrome) $classes[] = 'chrome';
+    elseif ($is_IE) $classes[] = 'ie';
+    elseif ($is_iphone) $classes[] = 'ios-app';
+    // Verificar se o acesso é feito por um aplicativo iOS
+    if ($is_iphone) $classes[] = 'ios-app';
+    return $classes;
+}
+// Salvando os grupos de campos ACF no diretório do tema
+add_filter('acf/settings/save_json', function ($path) {
+    // Define o caminho onde os arquivos JSON serão salvos
+    $path = get_stylesheet_directory() . '/acf-json';
+    return $path;
+});
+// Carregando os grupos de campos ACF a partir do diretório do tema
+add_filter('acf/settings/load_json', function ($paths) {
+    // Remove o caminho padrão
+    unset($paths[0]);
+    // Adiciona o caminho do diretório 'acf-json' no tema
+    $paths[] = get_stylesheet_directory() . '/acf-json';
+    return $paths;
+});
+
+
+
+// Função para renomear o rótulo da função "Administrador" para "Super Admin"
+function renomear_funcao_administrador($roles)
+{
+    if (isset($roles['administrator'])) {
+        $roles['administrator']['name'] = 'Super Admin';
+    }
+    return $roles;
+}
+add_filter('editable_roles', 'renomear_funcao_administrador');
+function renomear_funcao_administrador_dropdown($role)
+{
+    return $role === 'Administrator' ? 'Super-Admin' : $role;
+}
+add_filter('role_names', 'renomear_funcao_administrador_dropdown');
+// Passo 1: Criar uma função personalizada "Administrador Site" com permissões específicas
+function criar_funcao_administrador_site()
+{
+    // Verifica se a função já existe
+    if (!get_role('administrador_site')) {
+        add_role(
+            'administrador_site',
+            __('Administrador Site'),
+            [
+                // Capabilidades básicas de leitura e edição
+                'read'                   => true,
+                'edit_posts'             => true,
+                'delete_posts'           => true,
+                'publish_posts'          => true,
+                'upload_files'           => true,
+                'manage_categories'      => true,
+                // Gerenciamento de plugins e temas
+                'install_plugins'        => true,
+                'activate_plugins'       => true,
+                'edit_plugins'           => false,
+                'delete_plugins'         => false,
+                'install_themes'         => false,
+                'edit_themes'            => false,
+                'delete_themes'          => false,
+                // Capacidade de gerenciar usuários e definir permissões
+                'list_users'             => true,
+                'edit_users'             => true,
+                'delete_users'           => true,
+                'create_users'           => true,
+                'promote_users'          => true,
+                // Configurações do site
+                'manage_options'         => false,
+                'edit_dashboard'         => false,
+                'update_core'            => false,
+                'update_plugins'         => true,
+                'update_themes'          => false,
+                'manage_links'           => true,
+                'edit_files'             => false,
+                // Outras permissões administrativas
+                'edit_private_posts'     => true,
+                'edit_published_posts'   => true,
+                'delete_private_posts'   => true,
+                'delete_published_posts' => true,
+                'publish_pages'          => true,
+                'edit_pages'             => true,
+                'delete_pages'           => true,
+                'edit_private_pages'     => true,
+                'delete_private_pages'   => true,
+                'edit_published_pages'   => true,
+                'delete_published_pages' => true,
+                'unfiltered_html'        => false, // Atenção: permite HTML sem filtro (use com cautela)
+                // Defina outras permissões conforme necessário
+                'manage_options'         => false, // Removendo acesso a configurações
+                'edit_theme_options'     => false, // Removendo acesso a temas
+                'activate_plugins'       => true, // Removendo acesso a plugins
+                'update_core'            => false, // Removendo acesso a atualizações
+            ]
+        );
+    }
+}
+add_action('init', 'criar_funcao_administrador_site');
+
+// Passo 2: Atribuir a função de "Administrador Comum" a novos usuários
+function atribuir_funcao_administrador_site($user_id)
+{
+    $user = new WP_User($user_id);
+    $user->set_role('administrador_site');
+}
+add_action('user_register', 'atribuir_funcao_administrador_site');
+
+
+// Função para remover as funções padrão "Colaborador" e "Autor"
+function remover_funcoes_padrao()
+{
+    // Verifica se a função existe antes de tentar removê-la
+    if (get_role('administrador_comum')) {
+        remove_role('administrador_comum');
+    }
+    // Verifica e remove a função "Colaborador" (contributor)
+    if (get_role('contributor')) {
+        remove_role('contributor');
+    }
+    // Verifica e remove a função "Autor" (author)
+    if (get_role('author')) {
+        remove_role('author');
+    }
+    // Verifica e remove a função "editor" (editor)
+    if (get_role('editor')) {
+        remove_role('editor');
+    }
+}
+add_action('init', 'remover_funcoes_padrao');
+
+// Função para renomear rótulos dos perfis
+function renomear_funcoes_usuario($roles)
+{
+    if (isset($roles['shop_manager'])) {
+        $roles['shop_manager']['name'] = 'Gerente';
+    }
+    if (isset($roles['customer'])) {
+        $roles['customer']['name'] = 'Cliente';
+    }
+    if (isset($roles['subscriber'])) {
+        unset($roles['subscriber']); // Remove o perfil Assinante
+    }
+    return $roles;
+}
+add_filter('editable_roles', 'renomear_funcoes_usuario');
+
+// Função para renomear rótulos no dropdown
+function renomear_funcoes_usuario_dropdown($role)
+{
+    if ($role === 'Shop manager') {
+        return 'Gerente';
+    }
+    if ($role === 'Customer') {
+        return 'Cliente';
+    }
+    if ($role === 'Subscriber') {
+        return ''; // Remove a exibição do Assinante
+    }
+    return $role;
+}
+add_filter('role_names', 'renomear_funcoes_usuario_dropdown');
+
+// Modifica o HTML do dropdown dinamicamente
+function modificar_dropdown_roles($role_options)
+{
+    unset($role_options['subscriber']); // Remove a opção Assinante
+    $role_options['shop_manager'] = 'Gerente'; // Atualiza Shop manager
+    $role_options['customer'] = 'Cliente'; // Atualiza Customer
+    return $role_options;
+}
+add_filter('wp_dropdown_roles', 'modificar_dropdown_roles');

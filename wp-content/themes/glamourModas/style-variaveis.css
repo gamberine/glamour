@@ -14,48 +14,51 @@ Ano: 2025
 
 /* Cores */
 :root {
-    --fontTitulos  : 'Quesha', sans-serif !important;
-    --fontTitulosSec  : 'Corinthia', cursive !important;
-    --fontConteudos: 'Noto Sans', sans-serif !important;
+    --fontTitulos   : 'Quesha', sans-serif !important;
+    --fontTitulosSec: 'Corinthia', cursive !important;
+    --fontConteudos : 'Noto Sans', sans-serif !important;
 
-    --corPrincipal     : #B78406 !important;
-    --corPrincipalHover: #D8AA2B !important;
-    --corSecundaria   : #101A3F !important;
-    --corSecundariaHover   : #090D1E !important;
-    --corTextos     : #63696B !important;
-    --corTextosHover: #505455 !important;
-    --corAtiva  : #b7b406 !important;
-    
+    --corPrincipal      : #B78406 !important;
+    --corPrincipalHover : #D8AA2B !important;
+    --corPrincipalTransp: #b78506b4 !important;
+    --corSecundaria     : #101A3F !important;
+    --corSecundariaHover: #090D1E !important;
+    --corTextos         : #63696B !important;
+    --corTextosHover    : #505455 !important;
+    --corAtiva          : #b7b406 !important;
+
     /* --corPrincipalRgb  : 21, 93, 134; */
     /* --corSecundariaRgb: 29, 73, 98; */
-    --corBg           : #e6decd !important;
-    --corBgSecundario : #d9e8ed !important;
+    --corBg          : #e6decd !important;
+    --corBgSecundario: #d9e8ed !important;
 
+    /* --gradientSecundario: linear-gradient(270deg, var(--corSecundaria), var(--corSecundariaHover)) !important; */
+    --gradientSecundario: linear-gradient(261deg, #090d1e 10%, #101a3f 90%) !important;
 
-    --corCinza     : #A9ABAE !important;
+    --corCinza  : #A9ABAE !important;
     --corBranca : #ffffff;
     --corAlerta : #dd3b39 !important;
     --corSucesso: #1e5a24 !important;
 
-    --gradientPadrao          : linear-gradient(270deg, #295d7a, #062334) !important;
-    --gradientHover          : linear-gradient(90deg, #295d7a, #062334) !important;
-    --gradientHeader          : linear-gradient(270deg, #e3e7e9c9, #eaeaea) !important;
-    --corBtn                  : #e7cc95 !important;
-    --corBgAmarelo            : #ffb800 !important;
-    --gradientBtn             : linear-gradient(270deg, var(--corPrincipal), var(--corPrincipalHover)) !important;
-    --gradientBtnHover        : linear-gradient(0deg, var(--corPrincipal), var(--corPrincipalHover)) !important;
-    --gradientSecundario      : linear-gradient(165deg, #fff, var(--corCinza), var(--corSecundaria) 110%) !important;
-    --gradientColor           : linear-gradient(270deg, var(--corBtn), var(--corPrincipal)) !important;
-    --gradientColorRotate     : linear-gradient(270deg, var(--corPrincipal), var(--corBtn)) !important;
-    --gradientMask            : linear-gradient(247deg, #7896864a 14%, #dd9eb305 82%) !important;
-    --gradientBanner          : linear-gradient(330deg, #155c8656, #155d8680) !important;
-    --corBordas               : #e7e7e79d;
-    --corSombra               : #2727273f;
-    --sombra                  : 2px 2px 1px 0px var(--corSombra) !important;
-    --textShadow              : 1px 1px 1px var(--corSombra) !important;
-    --filterShadow            : drop-shadow(0 0 10px var(--corSombra)) !important;
-    --borderRadiusPadrao      : 10px !important;
-    --transitionPadrao        : all 0.3s ease-in !important;
+    --gradientPadrao     : linear-gradient(270deg, #295d7a, #062334) !important;
+    --gradientHover      : linear-gradient(90deg, #295d7a, #062334) !important;
+    --gradientHeader     : linear-gradient(270deg, #e3e7e9c9, #eaeaea) !important;
+    --corBtn             : #e7cc95 !important;
+    --corBgAmarelo       : #ffb800 !important;
+    --gradientBtn        : linear-gradient(270deg, var(--corPrincipal), var(--corPrincipalHover)) !important;
+    --gradientBtnHover   : linear-gradient(0deg, var(--corPrincipal), var(--corPrincipalHover)) !important;
+    --gradientSecundario : linear-gradient(165deg, #fff, var(--corCinza), var(--corSecundaria) 110%) !important;
+    --gradientColor      : linear-gradient(270deg, var(--corBtn), var(--corPrincipal)) !important;
+    --gradientColorRotate: linear-gradient(270deg, var(--corPrincipal), var(--corBtn)) !important;
+    --gradientMask       : linear-gradient(247deg, #7896864a 14%, #dd9eb305 82%) !important;
+    --gradientBanner     : linear-gradient(330deg, #155c8656, #155d8680) !important;
+    --corBordas          : #e7e7e79d;
+    --corSombra          : #2727273f;
+    --sombra             : 2px 2px 1px 0px var(--corSombra) !important;
+    --textShadow         : 1px 1px 1px var(--corSombra) !important;
+    --filterShadow       : drop-shadow(0 0 10px var(--corSombra)) !important;
+    --borderRadiusPadrao : 10px !important;
+    --transitionPadrao   : all 0.3s ease-in !important;
 
     /* --rotateScale             : 5s ease-in-out infinite; */
     --rotateScaleDuration : 3s;
@@ -128,22 +131,26 @@ Ano: 2025
 
 @keyframes animationFadeTop {
     0% {
-        opacity  : 0;
+        opacity     : 0;
         /* transform: translateY(-6.2rem); */
-        transform: translateY(-250px);
+        transform   : translateY(-250px);
     }
+
     25% {
         opacity  : .25;
         transform: translateY(-200px);
     }
+
     50% {
         opacity  : .5;
         transform: translateY(-125px);
     }
+
     75% {
         opacity  : .75;
         transform: translateY(-75px);
     }
+
     100% {
         opacity  : 1;
         transform: translateY(0);
