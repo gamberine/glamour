@@ -1,0 +1,126 @@
+
+
+
+(G ) - Antrokas_demo
+corpo - Corinthia
+Modas - Quesha (237)
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/quesha');
+</style>
+
+
+font-family: 'Quesha', sans-serif;
+
+400 ou 700
+font-family: "Corinthia", cursive; 
+
+font-family: "Noto Sans", sans-serif;
+
+
+textos 63696B
+corSec 101A3F
+corSecHov 090D1E
+
+Principal B78406
+PrincipalHover D8AA2B
+
+esquerda BEA000
+
+Glamour Modas
+O estilo que te acompanha dos pés à cabeça!
+
+
+
+
+---- política de privacidade
+Quem somos
+Quais dados pessoais coletamos e porque
+Comentários
+Mídia
+Formulários de contato
+Cookies
+Análises
+Com quem compartilhamos seus dados
+Por quanto tempo mantemos os seus dados
+Quais os seus direitos sobre seus dados
+Para onde seus dados são enviados
+Informação de contato
+Informações adicionais
+Como protegemos seus dados
+Quais são nossos procedimentos contra violação de dados
+De quais terceiros nós recebemos dados
+Quais tomadas de decisão ou análises de perfil automatizadas fazemos com os dados de usuários
+Requisitos obrigatórios de divulgação para sua categoria profissional
+
+--------------
+
+
+        <h2>Quem somos</h2>
+        <p>Somos a Glamour Modas, uma loja virtual dedicada a oferecer o melhor em roupas, acessórios e calçados. Nosso compromisso é proporcionar uma experiência de compra segura e personalizada para todos os nossos clientes.</p>
+
+        <h2>Quais dados pessoais coletamos e por quê</h2>
+        <p>Coletamos dados pessoais para melhorar a experiência do usuário em nossa loja virtual. Os dados incluem:</p>
+        <ul>
+            <li><strong>Informações de contato</strong>: nome, e-mail, telefone, endereço de entrega e faturamento.</li>
+            <li><strong>Dados de navegação</strong>: histórico de compras, páginas visitadas e preferências.</li>
+            <li><strong>Dados de pagamento</strong>: processados de forma segura por intermediários de pagamento.</li>
+        </ul>
+        <p>Esses dados são utilizados para processar pedidos, oferecer suporte ao cliente e enviar comunicações promocionais.</p>
+
+        <h2>Comentários</h2>
+        <p>Quando os visitantes deixam comentários no site, coletamos os dados exibidos no formulário de comentários, além do endereço IP e da string do agente do usuário do navegador para ajudar na detecção de spam.</p>
+
+        <h2>Mídia</h2>
+        <p>Se você fizer upload de imagens no site, evite enviar arquivos com dados de localização incorporados (EXIF GPS). Visitantes do site podem baixar e extrair qualquer dado de localização das imagens.</p>
+
+        <h2>Formulários de contato</h2>
+        <p>Os formulários de contato coletam nome, e-mail e mensagem para que possamos responder às suas solicitações. Os dados são armazenados apenas pelo tempo necessário para atender à demanda.</p>
+
+        <h2>Cookies</h2>
+        <p>Nosso site utiliza cookies para melhorar a navegação e personalizar experiências. Cookies também podem ser utilizados para salvar suas preferências de idioma, itens no carrinho e informações de login.</p>
+
+        <h2>Análises</h2>
+        <p>Utilizamos ferramentas de análise para compreender melhor como os visitantes utilizam nosso site. Isso inclui informações sobre páginas visitadas, tempo de permanência e interações gerais.</p>
+
+        <h2>Com quem compartilhamos seus dados</h2>
+        <p>Podemos compartilhar seus dados com provedores de serviços terceirizados, como plataformas de pagamento, logística e análise de dados, apenas para cumprir funções essenciais do negócio. Esses provedores são obrigados a manter seus dados seguros.</p>
+
+        <h2>Por quanto tempo mantemos os seus dados</h2>
+        <p>Os dados coletados são mantidos enquanto forem necessários para atender às finalidades descritas nesta política, a menos que haja uma obrigação legal de retenção.</p>
+
+        <h2>Quais os seus direitos sobre seus dados</h2>
+        <p>Você pode solicitar uma cópia dos dados pessoais que temos sobre você ou pedir a exclusão de suas informações. Para isso, entre em contato através do nosso e-mail.</p>
+
+        <h2>Para onde seus dados são enviados</h2>
+        <p>Dados de comentários podem ser verificados por um serviço automático de detecção de spam. Outros dados podem ser transferidos para servidores localizados fora do país, sempre em conformidade com as leis aplicáveis.</p>
+
+        <h2>Informação de contato</h2>
+        <p>Para qualquer dúvida ou solicitação relacionada à privacidade, entre em contato conosco através de nosso e-mail oficial: <a href="mailto:contato@glamourmodas.com">contato@glamourmodas.com</a>.</p>
+
+        <h2>Informações adicionais</h2>
+        <p>Estamos comprometidos em proteger sua privacidade e adotar as melhores práticas do mercado para garantir a segurança dos dados.</p>
+
+        <h2>Como protegemos seus dados</h2>
+        <p>Implementamos medidas de segurança como criptografia de dados, acesso restrito e monitoramento constante para proteger suas informações.</p>
+
+        <h2>Quais são nossos procedimentos contra violação de dados</h2>
+        <p>Em caso de violação de dados, notificaremos os usuários afetados e tomaremos as medidas necessárias para minimizar os impactos.</p>
+
+        <h2>De quais terceiros nós recebemos dados</h2>
+        <p>Podemos receber dados de terceiros, como redes sociais e plataformas de pagamento, para aprimorar a experiência do cliente.</p>
+
+        <h2>Quais tomadas de decisão ou análises de perfil automatizadas fazemos com os dados de usuários</h2>
+        <p>Utilizamos análises automatizadas para oferecer recomendações de produtos com base no seu histórico de compras e preferências de navegação.</p>
+
+        <h2>Requisitos obrigatórios de divulgação para sua categoria profissional</h2>
+        <p>A Glamour Modas segue as normas legais e regulatórias aplicáveis ao comércio eletrônico, assegurando transparência e conformidade com a legislação vigente.</p>
+
+
+
+
+
+---- fim política
+
