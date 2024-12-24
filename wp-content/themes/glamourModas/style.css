@@ -22,25 +22,157 @@ Domain Path: /languages
 /* styles.css */
 @import url('style-variaveis.css');
 
-.ast-page-builder-template .site-content > .ast-container {
-    max-width: 100%;
+.ast-page-builder-template .site-content>.ast-container {
+    max-width    : 100%;
     padding-block: 0 !important;
-    padding-inline: 2rem !important;
-    flex-wrap: wrap !important;
-    row-gap: 2rem;
+    flex-wrap    : wrap !important;
+    row-gap      : 2rem;
 }
+
+.site-content .ast-container {
+    display  : flex;
+    flex-wrap: wrap;
+}
+
 
 #primary {
-    width: 80% !important;
-    padding: 0 2rem 2rem !important;
-
-  }
-
-#secondary {
-    width: 20% !important;
-  }
-#secondary {
-  line-height: 1.3;
-  padding-inline: 2rem !important;
+    width  : 80% !important;
+    padding: 0 3rem 2rem !important;
 }
 
+.single div#primary,
+.home div#primary {
+    width  : 100% !important;
+    padding: 0 !important;
+}
+
+#secondary {
+    line-height   : 1.3;
+    width         : 20% !important;
+    padding-inline: 3rem !important;
+}
+
+input[type=email],
+input[type=number],
+input[type=password],
+input[type=reset],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=url],
+select,
+textarea {
+    color        : var(--corTextos);
+    padding-block: 0;
+    min-height   : 48px;
+    height       : auto;
+    border-width : 1px;
+    border-style : solid;
+    border-color : var(--ast-border-color);
+    border-radius: var(--borderRadiusPadrao) !important;
+    background   : var(--ast-comment-inputs-background);
+    box-shadow   : none;
+    box-sizing   : border-box;
+    transition   : var(--transitionPadrao) !important;
+}
+
+
+body .elementor-button.elementor-size-sm,
+body .elementor-button.elementor-size-xs,
+body .elementor-button.elementor-size-md,
+body .elementor-button.elementor-size-lg,
+body .elementor-button.elementor-size-xl,
+body .elementor-button,
+.menu-toggle,
+button,
+.ast-button,
+.ast-custom-button,
+.button,
+input#submit,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+form[CLASS*="wp-block-search__"].wp-block-search .wp-block-search__inside-wrapper .wp-block-search__button,
+body .wp-block-file .wp-block-file__button,
+.woocommerce-js a.button,
+.woocommerce button.button,
+.woocommerce .woocommerce-message a.button,
+.woocommerce #respond input#submit.alt,
+.woocommerce input.button.alt,
+.woocommerce input.button,
+.woocommerce input.button:disabled,
+.woocommerce input.button:disabled[disabled],
+.woocommerce input.button:disabled:hover,
+.woocommerce input.button:disabled[disabled]:hover,
+.woocommerce #respond input#submit,
+.woocommerce button.button.alt.disabled,
+.wc-block-grid__products .wc-block-grid__product .wp-block-button__link,
+.wc-block-grid__product-onsale,
+[CLASS*="wc-block"] button,
+.woocommerce-js .astra-cart-drawer .astra-cart-drawer-content .woocommerce-mini-cart__buttons .button:not(.checkout):not(.ast-continue-shopping),
+.woocommerce-js .astra-cart-drawer .astra-cart-drawer-content .woocommerce-mini-cart__buttons a.checkout,
+.woocommerce button.button.alt.disabled.wc-variation-selection-needed,
+[CLASS*="wc-block"] .wc-block-components-button {
+    border-radius: var(--borderRadiusPadrao) !important;
+    transition   : var(--transitionPadrao) !important;
+    min-height   : 48px;
+    display      : flex;
+    width        : fit-content;
+    align-items  : center;
+}
+
+body .elementor-button.elementor-size-sm,
+body .elementor-button.elementor-size-xs,
+body .elementor-button.elementor-size-md,
+body .elementor-button.elementor-size-lg,
+body .elementor-button.elementor-size-xl,
+body .elementor-button {
+    border-radius  : var(--borderRadiusPadrao) !important;
+    transition     : var(--transitionPadrao) !important;
+    min-height     : 48px;
+    padding-top    : 0;
+    padding-right  : 2rem;
+    padding-bottom : 0;
+    padding-left   : 2rem;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+
+.woocommerce nav.woocommerce-pagination ul,
+.woocommerce nav.woocommerce-pagination ul li {
+    /* border-color: var(--ast-global-color-1); */
+    border-radius: 100%;
+}
+
+.woocommerce nav.woocommerce-pagination ul li a:focus,
+.woocommerce nav.woocommerce-pagination ul li a:hover,
+.woocommerce nav.woocommerce-pagination ul li span.current {
+    background  : var(--corPrincipal);
+    border-color: var(--corPrincipal);
+    color       : var(--corBranca);
+}
+
+.woocommerce-js .woocommerce-ordering select,
+.woocommerce-page .woocommerce-ordering select {
+    background-color: var(--corBranca);
+    border-radius   : var(--borderRadiusPadrao) !important;
+    border-width    : 1px;
+    border-style    : solid;
+    border-color    : var(--corPrincipal);
+}
+
+select,
+.select2-container .select2-selection--single {
+    background-image     : url(imagens/download.svg) !important;
+    background-size      : .8em;
+    background-repeat    : no-repeat !important;
+    background-position-x: calc(100% - 10px) !important;
+    background-position-y: center !important;
+}
+
+a.elementor-button.elementor-button-link.elementor-size-sm {
+  background-color: var(--corPrincipal) !important;
+  border-width: 0 !important;
+  border-color: transparent !important;
+}

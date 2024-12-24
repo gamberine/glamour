@@ -57,8 +57,8 @@ Ano: 2025
     --sombra             : 2px 2px 1px 0px var(--corSombra) !important;
     --textShadow         : 1px 1px 1px var(--corSombra) !important;
     --filterShadow       : drop-shadow(0 0 10px var(--corSombra)) !important;
-    --borderRadiusPadrao : 10px !important;
-    --transitionPadrao   : all 0.3s ease-in !important;
+    --borderRadiusPadrao : 8px !important;
+    --transitionPadrao   : all 0.3s linear !important;
 
     /* --rotateScale             : 5s ease-in-out infinite; */
     --rotateScaleDuration : 3s;

@@ -64,80 +64,77 @@
 
 
             </div>
-        <?php endwhile; ?>
-    <?php endif; ?>
-    <?php wp_reset_query(); ?>
-    <div class="col-grid col-xxl-4 col-xl-3 col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center">
+                <?php endwhile; ?>
+                <?php endif; ?>
+                <?php wp_reset_query(); ?>
+            <div class="col-grid col-xxl-4 col-xl-3 col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center">
 
-        <p><?php
-            wp_nav_menu(
-                array(
-                    'theme_location'  => 'footer',
-                    'menu_class'      => 'menu-footer',
-                    'container_class' => 'primary-menu-container',
-                    'items_wrap'      => '<ul id="primary-menu-list" class="%2$s">%3$s</ul>',
-                    'fallback_cb'     => false,
-                )
-            );
-            ?>
-        </p>
+                <p><?php
+                    wp_nav_menu(
+                        array(
+                            'theme_location'  => 'footer',
+                            'menu_class'      => 'menu-footer',
+                            'container_class' => 'primary-menu-container',
+                            'items_wrap'      => '<ul id="primary-menu-list" class="%2$s">%3$s</ul>',
+                            'fallback_cb'     => false,
+                        )
+                    );
+                    ?>
+                </p>
 
-    </div>
-    <?php $args = array(
-        'post_type' => 'conteudo',
-        'posts_per_page' => 1,
-        'order' => 'date',
-        'oderby' => 'DESC'
-    );
-    ?>
-    <?php query_posts($args); ?>
-    <?php if (have_posts()) : ?>
-        <?php while (have_posts()) : the_post();
-        ?>
+            </div>
+                    <?php $args = array(
+                        'post_type' => 'conteudo',
+                        'posts_per_page' => 1,
+                        'order' => 'date',
+                        'oderby' => 'DESC'
+                    );
+                    ?>
+                    <?php query_posts($args); ?>
+                    <?php if (have_posts()) : ?>
+                        <?php while (have_posts()) : the_post();
+                        ?>
             <div class="col-grid col-xxl-3 col-xl-3 col-lg-12 col-md-12 col-sm-12 logoFooter">
                 <a href="<?php echo esc_url(home_url('/')); ?>">
                     <img src="<?php echo wp_kses_post(get_field('logomarca_rodape')); ?>" />
                 </a>
-            <?php endwhile; ?>
-        <?php endif; ?>
-        <?php wp_reset_query(); ?>
+                    <?php endwhile; ?>
+                <?php endif; ?>
+                <?php wp_reset_query(); ?>
 
-        <?php get_template_part('template-parts/content/arquivo-redes-sociais'); ?>
+                <?php get_template_part('template-parts/content/arquivo-redes-sociais'); ?>
 
             </div>
-            <!-- <div class="col-grid col-xl-4 col-lg-12 col-md-12 col-sm-12 formFooter">
-				
-				< ?php echo do_shortcode('[contact-form-7 id="1dc6f04" title="Formulario_trabalhe-conosco"]'); ?>
-			</div> -->
-            <?php $args = array(
-                'post_type' => 'conteudo',
-                'posts_per_page' => 1,
-                'order' => 'date',
-                'oderby' => 'DESC'
-            );
-            ?>
-            <?php query_posts($args); ?>
-            <?php if (have_posts()) : ?>
-                <?php while (have_posts()) : the_post();
-                ?>
-                    <a class="btnWhatsAppFooter" target="_blank" href="<?php echo wp_kses_post(get_field('linkWhatsapp')); ?>">
-                        <i class="fab fa-whatsapp"></i>
-                    </a>
-                    <a class="btnTop" href="#top">
-                        <i class="fa-solid fa-arrow-up"></i>
-                    </a>
+                    <?php $args = array(
+                        'post_type' => 'conteudo',
+                        'posts_per_page' => 1,
+                        'order' => 'date',
+                        'oderby' => 'DESC'
+                    );
+                    ?>
+                    <?php query_posts($args); ?>
+                    <?php if (have_posts()) : ?>
+                        <?php while (have_posts()) : the_post();
+                        ?>
+                            <a class="btnWhatsAppFooter" target="_blank" href="<?php echo wp_kses_post(get_field('linkWhatsapp')); ?>">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                            <a class="btnTop" href="#top">
+                                <i class="fa-solid fa-arrow-up"></i>
+                            </a>
 
         </div>
-    <?php endwhile; ?>
-<?php endif; ?>
-<?php wp_reset_query(); ?>
+                <?php endwhile; ?>
+            <?php endif; ?>
+            <?php wp_reset_query(); ?>
     </div>
 </footer>
 
 
 
 
-</div><!-- #page -->
+</div>
+<!-- #page -->
 
 
 
