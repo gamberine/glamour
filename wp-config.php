@@ -38,6 +38,9 @@ define('DB_CHARSET', 'utf8mb4');
 /** The database collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
 
+/* Add any custom values between this line and the "stop editing" line. */
+// define('JETPACK_DEV_DEBUG', true);
+
 /**#@+
  * Authentication unique keys and salts.
  *
@@ -49,14 +52,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '1zQ6oLG,C.j-J*pNXj~VObN=8&:`C$iyC3?KSVUh$6)/`*X$AZE8gsWnLi^d- `R');
-define('SECURE_AUTH_KEY',  '%JQ(/-d}Q#yeIex(=wAu%Rf%NP@}F!n%9+{1QLC*~x07U3WT_Kb}3D!P vI`H(Q@');
-define('LOGGED_IN_KEY',    '=jC)!9(NS+KIy;`=7~6dg-^)BWa2q.(st*.GBQl*p(h~fde!ki8ej(~;%iF~ripI');
-define('NONCE_KEY',        'vB6fPg$9d6([.dm;Bv;Z4no$J0CDe!{O+&Mv+tw7o:X2oL,Cq49k5ww1$nq8eoF~');
-define('AUTH_SALT',        'bUfp_vH?qTM[?d7)+5!=NxAv,A:B}+YY[E2bSPRp&T*c5/S1t*ub|fRS|A0)x-W0');
-define('SECURE_AUTH_SALT', '^Uo|s,.ELNbH*utV@V~O=rq*4Q+A~XeszGm/dYj b6c?r,M/YbGZynO/5 ($98Zv');
-define('LOGGED_IN_SALT',   'mKzt6t[FM%N)(fbv!>}n;*=Zlg~G&.a2~dwkiebT%W7iTgmeUPT`q*,uIjJq_9f^');
-define('NONCE_SALT',       '+aL^mue:Y<~-n^xXqMnDHs1V%mkHE_*^k_IuMPZC?Xw)@lh#RK]5dXY%R{tdXY=;');
+define('AUTH_KEY',         '601!&;A5*<zPf,)}s~.<P=j1@g;=C+5X`q7cRX12Xw30otMq:#n7vl)$jA-*FyXu');
+define('SECURE_AUTH_KEY',  's`K:(|l`0DJ_2}Y,n.,W)@3y(9[ ihz~H){D(u}N>u[)?8iZx@|iA+5`Z~[><auK');
+define('LOGGED_IN_KEY',    'N%%)/IW_)XS>/v{ZF*?(|]N@ i7UG~[JozH!Dr<F#:J!`WV6]M){KtPB079 wv5&');
+define('NONCE_KEY',        'wuw%,t|OBf6@B`cktNP*)|Q- l{QNhfvPnSiO}r~)8BdS6Fka$1MkwD[^@oA!OI2');
+define('AUTH_SALT',        'tPj_csct!*C[z:7le;Jih?%MHa+N8riSN7{Z{Q-[!x|63$v$Jnf[z!R>]|P^CB`*');
+define('SECURE_AUTH_SALT', ';?e9Lw9<JizL]T/n+}A30<||lP7^Q=!-G#!G,03]jV8z4`=oc/-?VCOEk.i5|{ri');
+define('LOGGED_IN_SALT',   'i)1=Cgt4D6{)W8N| 92kj*0y-G%U(S5U4QC-c/>/*2~lwxyPIOH=iBm[V)`AZH_F');
+define('NONCE_SALT',       '0(<QQqS;qJ.0?*S1AUcM?VZU}>1d2gOq!^^N;w?b>hWg5@&P$%^|@*9(`_F&D5BG');
 
 /**#@-*/
 
@@ -87,11 +90,14 @@ $table_prefix = 'wgm_';
  * @link https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/
  */
 define('WP_DEBUG', false);
+define('WP_DEBUG_LOG', false);
+define('WP_DEBUG_DISPLAY', false);
 
 /* Add any custom values between this line and the "stop editing" line. */
 
 
 
+define('DUPLICATOR_AUTH_KEY', 'o:6/2yV7J:y2pDST^#q@]/8U;EavgG>D^+D<*8hi G/;.tXz3bjIK[Uf|n0Il.lT');
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */

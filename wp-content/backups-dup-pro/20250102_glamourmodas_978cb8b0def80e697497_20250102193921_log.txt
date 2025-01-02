@@ -148,3 +148,30 @@ SQL ADDED: 20250102_glamourmodas_978cb8b0def80e697497_20250102193921_database.sq
 WARNING: Unable to zip file: D:/ProjetosGit/wampserver/www/glamourmodas/wp-content/plugins/google-listings-and-ads/vendor/googleads/google-ads-php/src/Google/Ads/GoogleAds/V18/Resources/CustomerSkAdNetworkConversionValueSchema/SkAdNetworkConversionValueSchema/CoarseGrainedConversionValueMappings.php
 WARNING: Unable to zip file: D:/ProjetosGit/wampserver/www/glamourmodas/wp-content/plugins/google-listings-and-ads/vendor/googleads/google-ads-php/src/Google/Ads/GoogleAds/V18/Resources/CustomerSkAdNetworkConversionValueSchema/SkAdNetworkConversionValueSchema/Event/EventOccurrenceRange.php
 WARNING: Unable to zip file: D:/ProjetosGit/wampserver/www/glamourmodas/wp-content/plugins/google-listings-and-ads/vendor/googleads/google-ads-php/src/Google/Ads/GoogleAds/V18/Resources/CustomerSkAdNetworkConversionValueSchema/SkAdNetworkConversionValueSchema/FineGrainedConversionValueMappings.php
+[PHP ERR][WARN] MSG:ZipArchive::close(): Read error: No such file or directory [CODE:2|FILE:D:\ProjetosGit\wampserver\www\glamourmodas\wp-content\plugins\duplicator-pro\src\Utils\ZipArchiveExtended.php|LINE:155]
+
+
+====================================================================
+!RUNTIME ERROR!
+---------------------------------------------------------------------
+MESSAGE:
+ZipArchive close failure during file phase with file validation enabled **FIX:  Click to switch archive engine to DupArchive..
+DETAILS:
+(no detail)
+---------------------------------------------------------------------
+TRACE:
+1. class.pack.archive.zip.php : error (706)
+2. class.pack.archive.zip.php : setFix (689)
+3. class.pack.archive.zip.php : setDupArchiveSwitchFix (313)
+4. class.pack.archive.zip.php : createSingleThreaded (77)
+5. class.pack.archive.php : create (193)
+6. class.pack.php : buildFile (1867)
+7. class.pack.runner.php : run_build (468)
+8. class.web.services.php : process (256)
+9. class-wp-hook.php : process_worker (324)
+10. class-wp-hook.php : apply_filters (348)
+11. plugin.php : do_action (517)
+12. admin-ajax.php : do_action (207)
+====================================================================
+
+

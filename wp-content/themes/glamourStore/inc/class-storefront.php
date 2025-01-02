@@ -95,6 +95,8 @@ if ( ! class_exists( 'Storefront' ) ) :
 						'primary'   => __( 'Primary Menu', 'storefront' ),
 						'secondary' => __( 'Secondary Menu', 'storefront' ),
 						'handheld'  => __( 'Handheld Menu', 'storefront' ),
+						'topBar'  => __( 'TopBar Menu', 'storefront' ),
+						'footer'  => __( 'Footer Menu', 'storefront' ),
 					)
 				)
 			);

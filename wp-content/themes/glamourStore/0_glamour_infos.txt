@@ -21,7 +21,7 @@ font-family: "Noto Sans", sans-serif;
 
 
 textos 63696B
-corSec 101A3F
+corSec 13235e
 corSecHov 090D1E
 
 Principal B78406
