@@ -1,0 +1,735 @@
+{
+    "RPT": {
+        "ScanTime": "11.979 sec.",
+        "ScanFile": "20250102_glamourmodas_978cb8b0def80e697497_20250102193921_scan.json",
+        "ScanCreated": "2025-01-02 19:39:36",
+        "ScanPath": "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/wp-content\/backups-dup-pro\/tmp\/20250102_glamourmodas_978cb8b0def80e697497_20250102193921_scan.json"
+    },
+    "ARC": {
+        "Size": "264.47MB",
+        "DirCount": "3,011",
+        "FileCount": "19,478",
+        "FullCount": "22,489",
+        "USize": 277315275,
+        "UDirCount": 3011,
+        "UFileCount": 19478,
+        "UFullCount": 22489,
+        "WarnFileCount": 0,
+        "WarnDirCount": 0,
+        "UnreadableDirCount": 0,
+        "UnreadableFileCount": 0,
+        "FilterDirsAll": [
+            "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/.opcache",
+            "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/.tmb",
+            "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/wp-content\/ai1wm-backups",
+            "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/wp-content\/backups-dup-lite",
+            "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/wp-content\/backups-dup-pro",
+            "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/wp-content\/backups-dup-pro",
+            "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/wp-content\/backupwordpress",
+            "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/wp-content\/bps-backup",
+            "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/wp-content\/cache",
+            "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/wp-content\/content\/cache",
+            "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/wp-content\/contents\/cache",
+            "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/wp-content\/infinitewp\/backups",
+            "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/wp-content\/managewp\/backups",
+            "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/wp-content\/old-cache",
+            "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/wp-content\/plugins\/all-in-one-wp-migration\/storage",
+            "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/wp-content\/plugins\/really-simple-captcha\/tmp",
+            "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/wp-content\/plugins\/wordfence\/tmp",
+            "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/wp-content\/updraft",
+            "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/wp-content\/uploads\/aiowps_backups",
+            "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/wp-content\/uploads\/backup-guard",
+            "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/wp-content\/uploads\/backupbuddy_backups",
+            "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/wp-content\/uploads\/backupbuddy_temp",
+            "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/wp-content\/uploads\/ithemes-security\/backups",
+            "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/wp-content\/uploads\/mainwp\/backup",
+            "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/wp-content\/uploads\/pb_backupbuddy",
+            "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/wp-content\/uploads\/snapshots",
+            "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/wp-content\/uploads\/sucuri",
+            "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/wp-content\/uploads\/wp-clone",
+            "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/wp-content\/uploads\/wp_all_backup",
+            "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/wp-content\/uploads\/wpbackitup_backups",
+            "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/wp-content\/wfcache",
+            "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/wp-content\/wishlist-backup",
+            "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/wp-content\/wpvividbackups",
+            "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/wp-snapshots"
+        ],
+        "FilterFilesAll": [
+            ".DS_Store",
+            "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/.htaccess",
+            "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/.user.ini",
+            "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/php.ini",
+            "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/web.config",
+            "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/wp-config.php",
+            "dbcache",
+            "debug_log",
+            "error_log",
+            "objectcache",
+            "pgcache",
+            "ws_ftp.log"
+        ],
+        "FilterExtsAll": [],
+        "FilteredCoreDirs": [],
+        "FilteredSites": [],
+        "Status": {
+            "Size": "Good",
+            "Names": "Good",
+            "Big": "Good",
+            "AddonSites": "Good",
+            "UnreadableItems": "Good",
+            "showCreateFuncStatus": "Good",
+            "showCreateFunc": true,
+            "HasImportableSites": true,
+            "HasNotImportableSites": false,
+            "HasFilteredCoreFolders": false,
+            "HasFilteredSiteTables": false,
+            "HasFilteredSites": false,
+            "Network": "Good",
+            "IsDBOnly": 0,
+            "PackageIsNotImportable": false
+        },
+        "RecursiveLinks": [],
+        "UnreadableItems": [],
+        "Subsites": [
+            {
+                "id": 1,
+                "domain": "localhost",
+                "path": "\/glamourmodas\/",
+                "blogname": "Glamour Modas",
+                "blog_prefix": "wgm_",
+                "filteredTables": [],
+                "adminUsers": [
+                    {
+                        "ID": "1",
+                        "user_login": "wadmin",
+                        "id": "1"
+                    }
+                ],
+                "fullHomeUrl": "http:\/\/localhost\/glamourmodas",
+                "fullSiteUrl": "http:\/\/localhost\/glamourmodas",
+                "uploadPath": "wp-content\/uploads",
+                "fullUploadPath": "D:\\ProjetosGit\\wampserver\\www\\glamourmodas\/wp-content\/uploads",
+                "fullUploadSafePath": "D:\/ProjetosGit\/wampserver\/www\/glamourmodas\/wp-content\/uploads",
+                "fullUploadUrl": "http:\/\/localhost\/glamourmodas\/wp-content\/uploads",
+                "filteredPaths": []
+            }
+        ]
+    },
+    "SRV": {
+        "Brand": {
+            "LogoAttachmentExists": false,
+            "LogoCount": 0,
+            "LogoFinded": 0,
+            "LogoImageExists": true,
+            "LogoImages": [],
+            "Name": "Default",
+            "Notes": "The default content used when a brand is not defined"
+        },
+        "HOST": [],
+        "PHP": {
+            "websrv": true,
+            "openbase": true,
+            "maxtime": true,
+            "openssl": true,
+            "mysqli": true,
+            "allowurlfopen": true,
+            "curlavailable": true,
+            "arch64bit": true,
+            "minMemory": true,
+            "version": true,
+            "ALL": "Good"
+        },
+        "WP": {
+            "version": true,
+            "core": true,
+            "ismu": false,
+            "ismuplus": true,
+            "ALL": "Good"
+        }
+    },
+    "DB": {
+        "Status": {
+            "Success": true,
+            "Size": "Good",
+            "Rows": "Good",
+            "Triggers": "Good"
+        },
+        "Size": "3.76MB",
+        "Rows": "3,171",
+        "TableCount": 95,
+        "TableList": {
+            "wgm_actionscheduler_actions": {
+                "Case": 0,
+                "Rows": "72",
+                "Size": "42.44KB",
+                "USize": "43456"
+            },
+            "wgm_actionscheduler_claims": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "3.03KB",
+                "USize": "3100"
+            },
+            "wgm_actionscheduler_groups": {
+                "Case": 0,
+                "Rows": "7",
+                "Size": "9.21KB",
+                "USize": "9432"
+            },
+            "wgm_actionscheduler_logs": {
+                "Case": 0,
+                "Rows": "1,073",
+                "Size": "145.87KB",
+                "USize": "149372"
+            },
+            "wgm_commentmeta": {
+                "Case": 0,
+                "Rows": "4",
+                "Size": "10.17KB",
+                "USize": "10416"
+            },
+            "wgm_comments": {
+                "Case": 0,
+                "Rows": "2",
+                "Size": "8.61KB",
+                "USize": "8812"
+            },
+            "wgm_duplicator_pro_entities": {
+                "Case": 0,
+                "Rows": "5",
+                "Size": "10.4KB",
+                "USize": "10648"
+            },
+            "wgm_duplicator_pro_packages": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wgm_links": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wgm_mailpoet_automation_run_logs": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "4KB",
+                "USize": "4096"
+            },
+            "wgm_mailpoet_automation_run_subjects": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "4KB",
+                "USize": "4096"
+            },
+            "wgm_mailpoet_automation_runs": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "4KB",
+                "USize": "4096"
+            },
+            "wgm_mailpoet_automation_triggers": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "4KB",
+                "USize": "4096"
+            },
+            "wgm_mailpoet_automation_versions": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wgm_mailpoet_automations": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wgm_mailpoet_custom_fields": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "2KB",
+                "USize": "2048"
+            },
+            "wgm_mailpoet_dynamic_segment_filters": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wgm_mailpoet_feature_flags": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "2KB",
+                "USize": "2048"
+            },
+            "wgm_mailpoet_forms": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wgm_mailpoet_log": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wgm_mailpoet_migrations": {
+                "Case": 0,
+                "Rows": "34",
+                "Size": "10.54KB",
+                "USize": "10788"
+            },
+            "wgm_mailpoet_newsletter_links": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "2KB",
+                "USize": "2048"
+            },
+            "wgm_mailpoet_newsletter_option": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wgm_mailpoet_newsletter_option_fields": {
+                "Case": 0,
+                "Rows": "31",
+                "Size": "9.24KB",
+                "USize": "9464"
+            },
+            "wgm_mailpoet_newsletter_posts": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wgm_mailpoet_newsletter_segment": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wgm_mailpoet_newsletter_templates": {
+                "Case": 0,
+                "Rows": "76",
+                "Size": "1.05MB",
+                "USize": "1099120"
+            },
+            "wgm_mailpoet_newsletters": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "4KB",
+                "USize": "4096"
+            },
+            "wgm_mailpoet_scheduled_task_subscribers": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wgm_mailpoet_scheduled_tasks": {
+                "Case": 0,
+                "Rows": "13",
+                "Size": "7.07KB",
+                "USize": "7240"
+            },
+            "wgm_mailpoet_segments": {
+                "Case": 0,
+                "Rows": "3",
+                "Size": "6.34KB",
+                "USize": "6488"
+            },
+            "wgm_mailpoet_sending_queues": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wgm_mailpoet_settings": {
+                "Case": 0,
+                "Rows": "13",
+                "Size": "4.71KB",
+                "USize": "4828"
+            },
+            "wgm_mailpoet_statistics_bounces": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wgm_mailpoet_statistics_clicks": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wgm_mailpoet_statistics_forms": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wgm_mailpoet_statistics_newsletters": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wgm_mailpoet_statistics_opens": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wgm_mailpoet_statistics_unsubscribes": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wgm_mailpoet_statistics_woocommerce_purchases": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wgm_mailpoet_stats_notifications": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wgm_mailpoet_subscriber_custom_field": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wgm_mailpoet_subscriber_ips": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wgm_mailpoet_subscriber_segment": {
+                "Case": 0,
+                "Rows": "1",
+                "Size": "4.04KB",
+                "USize": "4132"
+            },
+            "wgm_mailpoet_subscriber_tag": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wgm_mailpoet_subscribers": {
+                "Case": 0,
+                "Rows": "1",
+                "Size": "22.12KB",
+                "USize": "22652"
+            },
+            "wgm_mailpoet_tags": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "4KB",
+                "USize": "4096"
+            },
+            "wgm_mailpoet_user_agents": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wgm_mailpoet_user_flags": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wgm_options": {
+                "Case": 0,
+                "Rows": "521",
+                "Size": "1.67MB",
+                "USize": "1748408"
+            },
+            "wgm_postmeta": {
+                "Case": 0,
+                "Rows": "746",
+                "Size": "181.8KB",
+                "USize": "186164"
+            },
+            "wgm_posts": {
+                "Case": 0,
+                "Rows": "162",
+                "Size": "173.64KB",
+                "USize": "177804"
+            },
+            "wgm_term_relationships": {
+                "Case": 0,
+                "Rows": "52",
+                "Size": "9.64KB",
+                "USize": "9872"
+            },
+            "wgm_term_taxonomy": {
+                "Case": 0,
+                "Rows": "27",
+                "Size": "5.24KB",
+                "USize": "5368"
+            },
+            "wgm_termmeta": {
+                "Case": 0,
+                "Rows": "20",
+                "Size": "10.82KB",
+                "USize": "11076"
+            },
+            "wgm_terms": {
+                "Case": 0,
+                "Rows": "27",
+                "Size": "13.91KB",
+                "USize": "14240"
+            },
+            "wgm_usermeta": {
+                "Case": 0,
+                "Rows": "79",
+                "Size": "98.08KB",
+                "USize": "100432"
+            },
+            "wgm_users": {
+                "Case": 0,
+                "Rows": "2",
+                "Size": "8.23KB",
+                "USize": "8424"
+            },
+            "wgm_wc_admin_note_actions": {
+                "Case": 0,
+                "Rows": "91",
+                "Size": "24.39KB",
+                "USize": "24976"
+            },
+            "wgm_wc_admin_notes": {
+                "Case": 0,
+                "Rows": "63",
+                "Size": "28.88KB",
+                "USize": "29568"
+            },
+            "wgm_wc_category_lookup": {
+                "Case": 0,
+                "Rows": "8",
+                "Size": "2.13KB",
+                "USize": "2184"
+            },
+            "wgm_wc_customer_lookup": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "2KB",
+                "USize": "2048"
+            },
+            "wgm_wc_download_log": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wgm_wc_order_addresses": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "4KB",
+                "USize": "4096"
+            },
+            "wgm_wc_order_coupon_lookup": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wgm_wc_order_operational_data": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "2KB",
+                "USize": "2048"
+            },
+            "wgm_wc_order_product_lookup": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wgm_wc_order_stats": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "4KB",
+                "USize": "4096"
+            },
+            "wgm_wc_order_tax_lookup": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wgm_wc_orders": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "4KB",
+                "USize": "4096"
+            },
+            "wgm_wc_orders_meta": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "4KB",
+                "USize": "4096"
+            },
+            "wgm_wc_product_attributes_lookup": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wgm_wc_product_download_directories": {
+                "Case": 0,
+                "Rows": "2",
+                "Size": "9.18KB",
+                "USize": "9404"
+            },
+            "wgm_wc_product_meta_lookup": {
+                "Case": 0,
+                "Rows": "28",
+                "Size": "12.55KB",
+                "USize": "12852"
+            },
+            "wgm_wc_rate_limits": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "4KB",
+                "USize": "4096"
+            },
+            "wgm_wc_reserved_stock": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wgm_wc_tax_rate_classes": {
+                "Case": 0,
+                "Rows": "2",
+                "Size": "9.07KB",
+                "USize": "9288"
+            },
+            "wgm_wc_webhooks": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wgm_woocommerce_api_keys": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "2KB",
+                "USize": "2048"
+            },
+            "wgm_woocommerce_attribute_taxonomies": {
+                "Case": 0,
+                "Rows": "1",
+                "Size": "3.05KB",
+                "USize": "3124"
+            },
+            "wgm_woocommerce_downloadable_product_permissions": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wgm_woocommerce_log": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wgm_woocommerce_order_itemmeta": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wgm_woocommerce_order_items": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wgm_woocommerce_payment_tokenmeta": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wgm_woocommerce_payment_tokens": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wgm_woocommerce_sessions": {
+                "Case": 0,
+                "Rows": "1",
+                "Size": "10.91KB",
+                "USize": "11172"
+            },
+            "wgm_woocommerce_shipping_zone_locations": {
+                "Case": 0,
+                "Rows": "1",
+                "Size": "4.06KB",
+                "USize": "4160"
+            },
+            "wgm_woocommerce_shipping_zone_methods": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "2.39KB",
+                "USize": "2448"
+            },
+            "wgm_woocommerce_shipping_zones": {
+                "Case": 0,
+                "Rows": "1",
+                "Size": "2.04KB",
+                "USize": "2092"
+            },
+            "wgm_woocommerce_tax_rate_locations": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wgm_woocommerce_tax_rates": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": "1024"
+            },
+            "wgm_wpmailsmtp_debug_events": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "16KB",
+                "USize": "16384"
+            },
+            "wgm_wpmailsmtp_emails_queue": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "48KB",
+                "USize": "49152"
+            },
+            "wgm_wpmailsmtp_tasks_meta": {
+                "Case": 0,
+                "Rows": "2",
+                "Size": "2.13KB",
+                "USize": "2184"
+            }
+        },
+        "FilteredTables": []
+    },
+    "Status": 1
+}

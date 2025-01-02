@@ -1,0 +1,150 @@
+********************************************************************************
+********************************************************************************
+DUPLICATOR PRO PACKAGE-LOG: 2025-01-02 19:41:53
+NOTICE: Do NOT post to public sites or forums 
+PACKAGE CREATION START
+********************************************************************************
+********************************************************************************
+VERSION:	4.5.5.2
+WORDPRESS:	6.7.1
+PHP INFO:	8.0.26 | SAPI: apache2handler
+SERVER:		Apache/2.4.54 (Win64) PHP/8.0.26 mod_fcgid/2.3.10-dev 
+ARCHITECTURE:	64-bit 
+CLIENT KICKOFF: off 
+PHP TIME LIMIT: [7200] not allowed 
+PHP MAX MEMORY: 4294967296 (512M default) 
+RUN TYPE:	Manual
+MEMORY STACK:	20MB
+ARCHIVE ENGINE: ZipArchive: single-thread
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP (query limit - 524288)
+MYSQLDUMP:    Not Supported
+MYSQLTIMEOUT: 5000
+TABLES: total: 95 | filtered:0 | create:95
+REWIND DATABASE ITERATOR
+INSERT ROWS TABLE[INDEX:0] wgm_users NUM ROWS: 2
+REWIND DATABASE ITERATOR
+INSERT ROWS TABLE[INDEX:0] wgm_users NUM ROWS: 2
+INSERT ROWS TABLE[INDEX:1] wgm_usermeta NUM ROWS: 80
+INSERT ROWS TABLE[INDEX:2] wgm_actionscheduler_actions NUM ROWS: 73
+INSERT ROWS TABLE[INDEX:3] wgm_actionscheduler_claims NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:4] wgm_actionscheduler_groups NUM ROWS: 7
+INSERT ROWS TABLE[INDEX:5] wgm_actionscheduler_logs NUM ROWS: 1130
+INSERT ROWS TABLE[INDEX:6] wgm_commentmeta NUM ROWS: 4
+INSERT ROWS TABLE[INDEX:7] wgm_comments NUM ROWS: 2
+INSERT ROWS TABLE[INDEX:8] wgm_duplicator_pro_entities NUM ROWS: 5
+INSERT ROWS TABLE[INDEX:9] wgm_duplicator_pro_packages NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:10] wgm_links NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:11] wgm_mailpoet_automation_run_logs NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:12] wgm_mailpoet_automation_run_subjects NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:13] wgm_mailpoet_automation_runs NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:14] wgm_mailpoet_automation_triggers NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:15] wgm_mailpoet_automation_versions NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:16] wgm_mailpoet_automations NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:17] wgm_mailpoet_custom_fields NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:18] wgm_mailpoet_dynamic_segment_filters NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:19] wgm_mailpoet_feature_flags NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:20] wgm_mailpoet_forms NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:21] wgm_mailpoet_log NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:22] wgm_mailpoet_migrations NUM ROWS: 34
+INSERT ROWS TABLE[INDEX:23] wgm_mailpoet_newsletter_links NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:24] wgm_mailpoet_newsletter_option NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:25] wgm_mailpoet_newsletter_option_fields NUM ROWS: 31
+INSERT ROWS TABLE[INDEX:26] wgm_mailpoet_newsletter_posts NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:27] wgm_mailpoet_newsletter_segment NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:28] wgm_mailpoet_newsletter_templates NUM ROWS: 76
+INSERT ROWS TABLE[INDEX:29] wgm_mailpoet_newsletters NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:30] wgm_mailpoet_scheduled_task_subscribers NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:31] wgm_mailpoet_scheduled_tasks NUM ROWS: 13
+INSERT ROWS TABLE[INDEX:32] wgm_mailpoet_segments NUM ROWS: 3
+INSERT ROWS TABLE[INDEX:33] wgm_mailpoet_sending_queues NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:34] wgm_mailpoet_settings NUM ROWS: 13
+INSERT ROWS TABLE[INDEX:35] wgm_mailpoet_statistics_bounces NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:36] wgm_mailpoet_statistics_clicks NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:37] wgm_mailpoet_statistics_forms NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:38] wgm_mailpoet_statistics_newsletters NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:39] wgm_mailpoet_statistics_opens NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:40] wgm_mailpoet_statistics_unsubscribes NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:41] wgm_mailpoet_statistics_woocommerce_purchases NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:42] wgm_mailpoet_stats_notifications NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:43] wgm_mailpoet_subscriber_custom_field NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:44] wgm_mailpoet_subscriber_ips NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:45] wgm_mailpoet_subscriber_segment NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:46] wgm_mailpoet_subscriber_tag NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:47] wgm_mailpoet_subscribers NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:48] wgm_mailpoet_tags NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:49] wgm_mailpoet_user_agents NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:50] wgm_mailpoet_user_flags NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:51] wgm_options NUM ROWS: 553
+INSERT ROWS TABLE[INDEX:52] wgm_postmeta NUM ROWS: 746
+INSERT ROWS TABLE[INDEX:53] wgm_posts NUM ROWS: 179
+INSERT ROWS TABLE[INDEX:54] wgm_term_relationships NUM ROWS: 52
+INSERT ROWS TABLE[INDEX:55] wgm_term_taxonomy NUM ROWS: 27
+INSERT ROWS TABLE[INDEX:56] wgm_termmeta NUM ROWS: 20
+INSERT ROWS TABLE[INDEX:57] wgm_terms NUM ROWS: 27
+INSERT ROWS TABLE[INDEX:58] wgm_wc_admin_note_actions NUM ROWS: 91
+INSERT ROWS TABLE[INDEX:59] wgm_wc_admin_notes NUM ROWS: 63
+INSERT ROWS TABLE[INDEX:60] wgm_wc_category_lookup NUM ROWS: 8
+INSERT ROWS TABLE[INDEX:61] wgm_wc_customer_lookup NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:62] wgm_wc_download_log NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:63] wgm_wc_order_addresses NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:64] wgm_wc_order_coupon_lookup NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:65] wgm_wc_order_operational_data NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:66] wgm_wc_order_product_lookup NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:67] wgm_wc_order_stats NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:68] wgm_wc_order_tax_lookup NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:69] wgm_wc_orders NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:70] wgm_wc_orders_meta NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:71] wgm_wc_product_attributes_lookup NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:72] wgm_wc_product_download_directories NUM ROWS: 2
+INSERT ROWS TABLE[INDEX:73] wgm_wc_product_meta_lookup NUM ROWS: 28
+INSERT ROWS TABLE[INDEX:74] wgm_wc_rate_limits NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:75] wgm_wc_reserved_stock NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:76] wgm_wc_tax_rate_classes NUM ROWS: 2
+INSERT ROWS TABLE[INDEX:77] wgm_wc_webhooks NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:78] wgm_woocommerce_api_keys NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:79] wgm_woocommerce_attribute_taxonomies NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:80] wgm_woocommerce_downloadable_product_permissions NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:81] wgm_woocommerce_log NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:82] wgm_woocommerce_order_itemmeta NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:83] wgm_woocommerce_order_items NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:84] wgm_woocommerce_payment_tokenmeta NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:85] wgm_woocommerce_payment_tokens NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:86] wgm_woocommerce_sessions NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:87] wgm_woocommerce_shipping_zone_locations NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:88] wgm_woocommerce_shipping_zone_methods NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:89] wgm_woocommerce_shipping_zones NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:90] wgm_woocommerce_tax_rate_locations NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:91] wgm_woocommerce_tax_rates NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:92] wgm_wpmailsmtp_debug_events NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:93] wgm_wpmailsmtp_emails_queue NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:94] wgm_wpmailsmtp_tasks_meta NUM ROWS: 2
+SQL FILE SIZE CHECK OK, SIZE: 6920031
+SQL CREATED: 20250102_glamourmodas_978cb8b0def80e697497_20250102193921_database.sql
+SQL FILE SIZE: 6.6MB
+SQL FILE TIME: 2025-01-02 19:42:04
+SQL RUNTIME: 10.916 sec.
+MEMORY STACK: 22MB
+
+********************************************************************************
+ARCHIVE ZipArchive Single-Threaded
+********************************************************************************
+ARCHIVE DIR:  D:/ProjetosGit/wampserver/www/glamourmodas
+ARCHIVE FILE: 20250102_glamourmodas_978cb8b0def80e697497_20250102193921_archive.zip
+COMPRESSION: *ON*
+VALIDATION: *ON*
+FILTERS: *OFF*
+DIRS:	not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	264.47MB
+STATS:	Dirs 3,011 | Files 19,478 | Total 22,489
+SQL ADDED: 20250102_glamourmodas_978cb8b0def80e697497_20250102193921_database.sql
+WARNING: Unable to zip file: D:/ProjetosGit/wampserver/www/glamourmodas/wp-content/plugins/google-listings-and-ads/vendor/googleads/google-ads-php/src/Google/Ads/GoogleAds/V18/Resources/CustomerSkAdNetworkConversionValueSchema/SkAdNetworkConversionValueSchema/CoarseGrainedConversionValueMappings.php
+WARNING: Unable to zip file: D:/ProjetosGit/wampserver/www/glamourmodas/wp-content/plugins/google-listings-and-ads/vendor/googleads/google-ads-php/src/Google/Ads/GoogleAds/V18/Resources/CustomerSkAdNetworkConversionValueSchema/SkAdNetworkConversionValueSchema/Event/EventOccurrenceRange.php
+WARNING: Unable to zip file: D:/ProjetosGit/wampserver/www/glamourmodas/wp-content/plugins/google-listings-and-ads/vendor/googleads/google-ads-php/src/Google/Ads/GoogleAds/V18/Resources/CustomerSkAdNetworkConversionValueSchema/SkAdNetworkConversionValueSchema/FineGrainedConversionValueMappings.php
